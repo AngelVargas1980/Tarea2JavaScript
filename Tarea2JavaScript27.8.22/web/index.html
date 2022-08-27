@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!--
+-->
+<html>
+    <head>
+        <title>PrograII - App Web</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <br>
+        
+        <img src="logoMiumg2.jpg" align="center" alt=""/>
+        <img src="cabecera.jpg" alt="" align="center"/>
+        
+        <br>
+        <h1 class="titulo" align="right"> BIBLIOTECA UNIVERSIDAD MARIANO GALVEZ DE GUATEALA</h1>
+     
+    <br>
+         
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>  
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>    
+        
+        <br>
+        <div class="col">
+                  OBJETIVO
+                  <br>
+                  La biblioteca escolar ofrece servicios de aprendizaje,
+                  libros y otros recursos que permiten a todos los miembros
+                  de la comunidad escolar forjarse un pensamiento crítico y
+                  utilizar eficazmente la información en cualquier formato
+                  y medio de comunicación..
+              </div>
+        <br>
+        
+        <br>
+        <div class="container border-bottom"> <!-- border-bottom es para crear una caja de este contenedor -->
+          <!-- se va a ver una line abajo de la caja -->
+          <div class="row">
+              <div class="col-sm p-3"> <!-- sm es para que se vea una sola columna, es decir en los celulares -->
+                  <!-- p-3 es el padding para la separacion entre columnas -->
+                  LEER 
+                  <br>
+                  La lectura y la alfabetización son dos de las habilidades fundamentales de la vida. 
+                  Por ello las bibliotecas van a apoyar y promover la lectura y la alfabetización a 
+                  través de: El acceso a libros de calidad, materiales de lectura y personal experto. 
+                  Recursos electrónicos, revistas y libros electrónicos..
+              </div>
+            <div/>
+        <div/>
+        <br>
+        
+        
+        
+    <div class="container">
+        
+        <h1>Registro de libros - BIBLIOTECA</h1>
+        <a href="../src/java/MiServletPackages/miServlet.java"></a>
+        <a href="url"> Click aqui </a><br><br>
+        <form action="url">
+            <div class="form-group">
+                <label for="exampleInputName">Codigo</label>
+                <input class="form-control" type="text" placeholder="Ingresa el codigo del libro" name="codigo" >
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName">Nombre del libro</label>
+                <input class="form-control" type="text" placeholder="Ingresa el nombre del libro" name="nombrelibro" >
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPasta">Tipo de pasta</label>
+              <input type="pasta" class="form-control" id="exampleInputPasta"   placeholder="Ingresa el tipo de pasta"name="pasta" >
+              <small id="pastaHelp" class="form-text text-muted">Escribe correctamente los datos...</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Editorial</label>
+              <input type="text" class="form-control" id="exampleInputEditorial" placeholder="Ingresa el editorial del libro" name="editorial" >
+              <small id="editoriallHelp" class="form-text text-muted">Escribe correctamente los datos...</small>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputPassword1">Año de publicacion</label>
+              <input type="text" class="form-control" id="exampleInputPublicacion" placeholder="Ingresa el año de publicación" name="añopublicacion" >
+            <small id="tellHelp" class="form-text text-muted">Escribe correctamente los datos...</small>
+            </div>
+            
+            <select class="form-control" name="opcion">
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+            </select><br>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <!--<button type="button" class="btn btn-danger">Cancelar</button> -->
+            <input type="reset" class="btn btn-danger" value="Borrar formulario">
+            <!--<button type="button" class="btn btn-danger" value="borrar">Borrar formulario</button>  -->
+            
+                        
+        </form>
+    </div>
+        
+        <br>
+        <br><!-- <br> -->
+        <br>
+    </body>
+</html>
